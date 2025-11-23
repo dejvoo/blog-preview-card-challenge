@@ -44,4 +44,26 @@ body {
 .blog-text {
     font-size: 16px;
     color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
+
+.button1:hover {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: hsl(47, 88%, 55%);
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar {
+    width: 10%;
+}
+
+.name {
+    font-weight: bold;
+    margin-left: 20px;
 }
